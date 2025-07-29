@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import { SpeedInsights } from "@vercel/speed-insights/react";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 function App() {
   return (
     <>
