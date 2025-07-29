@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Weather App",
+    "description": "A real-time weather forecast app using OpenWeather API. Responsive design built with React and Tailwind.",
+    "tech": ["React", "Tailwind", "API"],
+    "image": "https://via.placeholder.com/400x250",
+    "demoLink": "#",
+    "githubLink": "#"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "A sleek developer portfolio built to showcase skills, projects, and resume with smooth animations.",
+    "tech": ["HTML", "Tailwind", "GSAP"],
+    "image": "https://via.placeholder.com/400x250",
+    "demoLink": "#",
+    "githubLink": "#"
+  },
+  {
+    "title": "To-Do App",
+    "description": "Minimalist task manager with localStorage, filtering, and drag & drop built with JavaScript.",
+    "tech": ["JavaScript", "CSS", "localStorage"],
+    "image": "https://via.placeholder.com/400x250",
+    "demoLink": "#",
+    "githubLink": "#"
+  }
+]
