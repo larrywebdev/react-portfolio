@@ -42,7 +42,7 @@ export default function Hero() {
             <a
               href="mailto:lawrenceomozojie@gmail.com"
               aria-label="Get In Touch"
-              className="min-w-32 cursor-pointer rounded-lg bg-[#18F2E5] px-[18px] py-[10px] text-center text-base font-medium text-[#00071E] active:scale-95 transition duration-100 ease-in-out hover:bg-[#18F2E5CC] hover:text-white"
+              className="min-w-32 cursor-pointer rounded-lg bg-[#18F2E5] px-[18px] py-[10px] text-center text-base font-medium text-[#00071E] transition duration-100 ease-in-out hover:bg-[#18F2E5CC] hover:text-white active:scale-95 active:bg-[#18F2E5] active:text-[#00071E] focus:outline-none touch-manipulation"
               data-aos="fade-up"
             >
               Get In Touch

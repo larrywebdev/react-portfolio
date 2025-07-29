@@ -91,7 +91,7 @@ export default function Resume() {
           <a
             href="#"
             aria-label="Download Resume"
-            className="min-w-32 cursor-pointer rounded-lg bg-[#18F2E5] px-[18px] py-[10px] text-center text-base font-medium text-[#00071E] active:scale-95 transition duration-100 ease-in-out hover:bg-[#27a581] hover:text-white"
+            className="min-w-32 cursor-pointer rounded-lg bg-[#18F2E5] px-[18px] py-[10px] text-center text-base font-medium text-[#00071E] active:scale-95 transition duration-100 ease-in-out hover:bg-[#27a581] hover:text-white active:bg-[#18F2E5] active:text-[#00071E] focus:outline-none touch-manipulation"
           >
             Download Resume
           </a>

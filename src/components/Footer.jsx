@@ -2,10 +2,10 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-white border-t border-gray-200 py-5 px-6 lg:px-20">
+    <footer className="bg-black border-t border-gray-200 py-5 px-6 lg:px-20">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
         {/* Name or Logo */}
-        <div className="text-xl font-semibold text-gray-800">
+        <div className="text-xl font-semibold text-gray-500">
           Omozojie Lawrence
         </div>
 
@@ -15,7 +15,7 @@ export default function Footer() {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-black transition-colors"
+            className="hover:text-white transition-colors text-gray-500"
           >
             <i className="fab fa-github text-2xl"></i>
           </a>
@@ -23,7 +23,7 @@ export default function Footer() {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-black transition-colors"
+            className="hover:text-white transition-colors text-gray-500"
           >
             <i className="fab fa-linkedin text-2xl"></i>
           </a>
@@ -31,7 +31,7 @@ export default function Footer() {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-black transition-colors"
+            className="hover:text-white transition-colors text-gray-500"
           >
             <i className="fab fa-twitter text-2xl"></i>
           </a>
@@ -40,7 +40,7 @@ export default function Footer() {
         <div>
           <a
             href="#top"
-            className="text-[#27a581] font-medium hover:underline text-sm"
+            className="text-white font-medium hover:underline hover:text-gray-500 text-sm"
           >
             Back to top ↑
           </a>
