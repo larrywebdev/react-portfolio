@@ -23,10 +23,11 @@ export default function Resume() {
             About Me
           </h3>
           <p className="text-gray-700 max-w-2xl mx-auto">
-            Passionate Frontend Developer with 3+ years of experience building
-            responsive web applications using modern tools like React, Tailwind
-            CSS, and TypeScript. Always eager to learn and adapt to new
-            technologies.
+            Aspiring Developer and Engineer with a growing foundation in both
+            core engineering and fullstack web development. Passionate about
+            solving real-world problems through innovative, scalable solutions
+            and responsive web applications using modern tools like React and
+            TailwindCSS. Always eager to learn and adapt to new technologies.
           </p>
         </div>
 
@@ -45,7 +46,7 @@ export default function Resume() {
             <div className="bg-white rounded-lg shadow-sm p-3">
               Git & GitHub
             </div>
-            <div className="bg-white rounded-lg shadow-sm p-3">Figma</div>
+            <div className="bg-white rounded-lg shadow-sm p-3">PostgreSQL</div>
           </div>
         </div>
 
@@ -57,14 +58,21 @@ export default function Resume() {
           <div className="text-left space-y-6">
             <div className="bg-white p-5 rounded-lg shadow-sm">
               <h4 className="font-bold text-gray-800">
-                Frontend Developer - XYZ Tech
+                Solar Power Installation Intern
               </h4>
-              <p className="text-sm text-gray-500">Jan 2023 - Present</p>
+              <p className="text-sm text-gray-500">April 2023 - Sept 2023</p>
               <ul className="list-disc list-inside text-gray-700 mt-2">
-                <li>Built and maintained SPA using React and Redux</li>
                 <li>
-                  Improved performance and SEO using lazy loading and code
-                  splitting
+                  Assisted engineers in solar system installation for
+                  residential and small commercial clients
+                </li>
+                <li>
+                  Gained hands-on exposure to photovoltaic systems, inverters,
+                  wiring, and panel layout.
+                </li>
+                <li>
+                  Supported troubleshooting efforts and participated in testing
+                  and system optimization.
                 </li>
               </ul>
             </div>
@@ -77,24 +85,11 @@ export default function Resume() {
             Education
           </h3>
           <div className="text-left bg-white p-5 rounded-lg shadow-sm">
-            <h4 className="font-bold text-gray-800">
-              Bachelor of Computer Science
-            </h4>
+            <h4 className="font-bold text-gray-800">Bachelor of Engineering</h4>
             <p className="text-sm text-gray-500">
-              University of Example - 2022
+              Federal University, Oye-Ekiti - 2022
             </p>
           </div>
-        </div>
-
-        {/* Download Button */}
-        <div className="mt-10 flex justify-center" data-aos="fade-up">
-          <a
-            href="#"
-            aria-label="Download Resume"
-            className="min-w-32 cursor-pointer rounded-lg bg-[#18F2E5] px-[18px] py-[10px] text-center text-base font-medium text-[#00071E] active:scale-95 transition duration-100 ease-in-out hover:bg-[#27a581] hover:text-white active:bg-[#18F2E5] active:text-[#00071E] focus:outline-none touch-manipulation"
-          >
-            Download Resume
-          </a>
         </div>
       </div>
     </section>

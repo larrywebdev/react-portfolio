@@ -23,13 +23,14 @@ export default function Projects() {
           Projects
         </h2>
 
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+        <div
+          className="grid gap-10 md:grid-cols-2 lg:grid-cols-3"
+          data-aos="fade-up"
+        >
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-500"
-              data-aos="fade-up"
-              data-aos-delay={100 * (index + 1)}
+              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 ease-in-out"
             >
               <img
                 src={project.image}

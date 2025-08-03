@@ -12,7 +12,7 @@ export default function Footer() {
         {/* Social Icons */}
         <div className="flex gap-5 text-gray-600">
           <a
-            href="#"
+            href="https://github.com/larrywebdev"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors text-gray-500"
@@ -20,7 +20,7 @@ export default function Footer() {
             <i className="fab fa-github text-2xl"></i>
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/lawrence-omozojie"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors text-gray-500"
@@ -28,12 +28,20 @@ export default function Footer() {
             <i className="fab fa-linkedin text-2xl"></i>
           </a>
           <a
-            href="#"
+            href="https://wa.me/+2348180126562"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors text-gray-500"
           >
-            <i className="fab fa-twitter text-2xl"></i>
+            <i className="fab fa-whatsapp text-2xl"></i>
+          </a>
+          <a
+            href="mailto:lawrenceomozojie@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition-colors text-gray-500"
+          >
+            <i className="fa-solid fa-envelope text-2xl"></i>
           </a>
         </div>
         {/* Back to top button */}

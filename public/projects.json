@@ -2,25 +2,25 @@
   {
     "title": "Weather App",
     "description": "A real-time weather forecast app using OpenWeather API. Responsive design built with React and Tailwind.",
-    "tech": ["React", "Tailwind", "API"],
-    "image": "https://via.placeholder.com/400x250",
-    "demoLink": "#",
-    "githubLink": "#"
+    "tech": ["React/Vite", "Tailwind", "API"],
+    "image": "/assets/images/weather-app.png",
+    "demoLink": "https://weather-app-six-nu-40.vercel.app/",
+    "githubLink": "https://github.com/larrywebdev/Weather-App"
   },
   {
     "title": "Portfolio Website",
-    "description": "A sleek developer portfolio built to showcase skills, projects, and resume with smooth animations.",
-    "tech": ["HTML", "Tailwind", "GSAP"],
-    "image": "https://via.placeholder.com/400x250",
-    "demoLink": "#",
-    "githubLink": "#"
+    "description": "A sleek developer portfolio built to showcase skills, projects, and resume.",
+    "tech": ["HTML", "CSS", "Javascript"],
+    "image": "/assets/images/portfolio.png",
+    "demoLink": "https://larrywebdev.github.io/portfolio/",
+    "githubLink": "https://github.com/larrywebdev/portfolio"
   },
   {
     "title": "To-Do App",
-    "description": "Minimalist task manager with localStorage, filtering, and drag & drop built with JavaScript.",
-    "tech": ["JavaScript", "CSS", "localStorage"],
-    "image": "https://via.placeholder.com/400x250",
-    "demoLink": "#",
-    "githubLink": "#"
+    "description": "Minimalist task manager with localStorage, filtering and editing built with React.",
+    "tech": ["React/Vite", "Tailwind", "localStorage"],
+    "image": "/assets/images/todo-app.png",
+    "demoLink": "https://todo-app-alpha-drab-75.vercel.app/",
+    "githubLink": "https://github.com/larrywebdev/todo-app"
   }
 ]
